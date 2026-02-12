@@ -29,7 +29,7 @@ const Form = ({onRefresh}) => {
     <div className="form-container">
       <form onSubmit={onFormSubmit} className="form">
         <div>
-          <h1>Random Talk</h1>
+          <h1>Anonymous Random Talk</h1>
         </div>
         <div className="form-input-name">
           <svg
@@ -90,3 +90,4 @@ const Form = ({onRefresh}) => {
 };
 
 export default Form;
+
